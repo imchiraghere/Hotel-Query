@@ -1,0 +1,32 @@
+<script src="Hotel.js"></script>
+
+<html><center>
+<title>Radisson</title>
+<table border="1">
+<tr><td bgcolor="FEFAD4"><img src="Radisson.png" width="400"></td></tr>
+<tr><td bgcolor="EFEEEE">
+<input type="radio" name="rooms" value="1200" id="Ac" onclick="acroom()"><b>Ac Room</b>
+<input type="radio" name="rooms" value="3000" id="Su" onclick="suroom()"><b>Suite Room</b>
+<input type="radio" name="rooms" value="5000" id="prei" onclick="preiroom()"><b>Preimum Room</b>
+</tr>
+</table>
+
+
+<table border='1' cellpadding='2' width="410">
+<tr><th><img id="image" src="Welcome.png" width="400"></th></tr>
+</table>
+
+
+<table border='1' cellpadding='2' width="410">
+<tr><td align='center' bgcolor=" 9BD7D1"><b>No. Of Person : </b><br><input type='text' id='txt1' placeholder='No. Of Person'  pattern="{0-2}" title="Only Two Person" maxlength="1" size='30'></td></tr>
+<tr><th bgcolor=" F1E6C1"><img src="breakfast.png" width="400"></th></tr>
+<tr><td align="center" bgcolor="F1E6C1"><input type='Checkbox' id='bre' value='500' onclick="res()"><b>Include BreakFast </b></td></tr>
+
+
+<tr><td align='center' bgcolor="F0B7A4"><b>Amount : <span id="result"><span></b></td></tr>
+<tr><th><img src="parkin.png" width="400"></th></tr>
+
+
+</table>
+</center>
+</html>
